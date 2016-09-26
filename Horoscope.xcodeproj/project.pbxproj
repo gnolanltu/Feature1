@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		CE90C9391D96F398004FF335 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE90C9381D96F398004FF335 /* AppDelegate.swift */; };
-		CE90C93B1D96F398004FF335 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE90C93A1D96F398004FF335 /* ViewController.swift */; };
 		CE90C93E1D96F398004FF335 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE90C93C1D96F398004FF335 /* Main.storyboard */; };
 		CE90C9401D96F398004FF335 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE90C93F1D96F398004FF335 /* Assets.xcassets */; };
 		CE90C9431D96F398004FF335 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE90C9411D96F398004FF335 /* LaunchScreen.storyboard */; };
@@ -38,7 +37,6 @@
 /* Begin PBXFileReference section */
 		CE90C9351D96F398004FF335 /* Horoscope.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Horoscope.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE90C9381D96F398004FF335 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CE90C93A1D96F398004FF335 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CE90C93D1D96F398004FF335 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE90C93F1D96F398004FF335 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE90C9421D96F398004FF335 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -103,7 +101,6 @@
 			children = (
 				CE90C9381D96F398004FF335 /* AppDelegate.swift */,
 				CE90C96C1D98201B004FF335 /* HoroscopeData.swift */,
-				CE90C93A1D96F398004FF335 /* ViewController.swift */,
 				CE90C9661D970B89004FF335 /* SignsTableViewController.swift */,
 				CE90C93C1D96F398004FF335 /* Main.storyboard */,
 				CE90C93F1D96F398004FF335 /* Assets.xcassets */,
@@ -267,7 +264,6 @@
 			files = (
 				CE90C96D1D98201B004FF335 /* HoroscopeData.swift in Sources */,
 				CE90C9671D970B89004FF335 /* SignsTableViewController.swift in Sources */,
-				CE90C93B1D96F398004FF335 /* ViewController.swift in Sources */,
 				CE90C9391D96F398004FF335 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,18 +8,26 @@
 
 import Foundation
 
+struct Horoscope {
+    var name: String
+}
+
 struct HoroscopeData {
     
     static let horoscopes = [
-        Horoscope(name: "aries"),
-        Horoscope(name: "taurus"),
-        Horoscope(name: "gemini"),
-        Horoscope(name: "leo"),
-        Horoscope(name: "virgo"),
+        Horoscope(name: "Aries"),
+        Horoscope(name: "Taurus"),
+        Horoscope(name: "Gemini"),
+        Horoscope(name: "Cancer"),
+        Horoscope(name: "Leo"),
+        Horoscope(name: "Virgo"),
+        Horoscope(name: "Libra"),
+        Horoscope(name: "Scorpio"),
+        Horoscope(name: "Sagittarius"),
+        Horoscope(name: "Capricorn"),
+        Horoscope(name: "Aquarius"),
+        Horoscope(name: "Pisces")
     ]
     
 }
 
-struct Horoscope {
-    var name: String
-}
